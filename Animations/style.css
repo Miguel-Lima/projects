@@ -1,8 +1,8 @@
 @keyframes exemplo {
     0% {background-color: black;top:0px;left:0px;}
-    25% {background-color: orange;top:0px;left:200px;}
-    50% {background-color: orangered;top:200px;left:200px;}
-    75% {background-color: red;top:200px;left:0px;}
+    25% {background-color: orange;top:0px;left:300px;}
+    50% {background-color: orangered;top:300px;left:300px;}
+    75% {background-color: red;top:300px;left:0px;}
     100% {background-color: black;top:0px;left:0px;}
     
 }
@@ -12,11 +12,13 @@ body {
     background-color: darkslateblue;
 }
 
-.exemplo {   
-    width: 150px;
-    height: 150px;
+.exemplo {
+    margin: auto;   
+    margin-top: 100px;
+    position: relative;
+    width: 200px;
+    height: 200px;
     background-color: black;
-    position:absolute;
     animation-name: exemplo;
     animation-duration: 4s;
     animation-delay: 2s;
