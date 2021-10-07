@@ -1,0 +1,24 @@
+@keyframes exemplo {
+    0% {background-color: black;top:0px;left:0px;}
+    25% {background-color: orange;top:0px;left:200px;}
+    50% {background-color: orangered;top:200px;left:200px;}
+    75% {background-color: red;top:200px;left:0px;}
+    100% {background-color: black;top:0px;left:0px;}
+    
+}
+
+body {
+    margin: 0;
+    background-color: darkslateblue;
+}
+
+.exemplo {   
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position:absolute;
+    animation-name: exemplo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
