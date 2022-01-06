@@ -1,20 +1,14 @@
 body {
-    margin:0;
-    background-color: #eee;
+    max-width: 80%;
+    width: 100%;
+    margin: 40px auto;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
 
-form {
-    width:185px;
-    height:auto;
-    background-color:#ddd;
-    margin:auto;
-    padding:20px;
-    margin-top:40vh;
-    font-weight: bolder;
-       
-}
-input {
-    padding:3px;
-    font-size:13px;
-    font-weight: bold;
+h1, p, label {
+    color: white;
 }
