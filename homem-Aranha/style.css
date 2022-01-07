@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    background-color: #920808;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simboloaranha {
+    height: 200px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 70px;
+    color:rgb(20, 20, 117) ;
+}
+
+.login {
+    color: rgb(20, 20, 117);
+    font-size: 25px;
+}
