@@ -2,27 +2,49 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+  
 }
 
 header {
     height: 200px;
-    background-color: #920808;
+    background-color: #000000;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .simboloaranha {
     height: 200px;
-    padding: 10px;
+    padding: 5px;
+    
 }
 
 h1 {
     font-size: 70px;
-    color:rgb(20, 20, 117) ;
+    color:rgb(255, 255, 255) ;
+    border-radius: 2px;
 }
 
 .login {
-    color: rgb(20, 20, 117);
+    color: rgb(255, 255, 255);
     font-size: 25px;
+}
+
+.photos-multiverso-container {
+   
+}
+
+.photos-aranha {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url(http://pa1.narvii.com/6519/0a77e9a9b133790f7c407cb2bd425429a80fc4d7_00.gif);
+}
+
+.images-aranha {
+    margin-top: 20px;
+    width: 400px;
 }
