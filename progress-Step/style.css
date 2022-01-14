@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(116, 49, 116, 0.856);
+    background-color: rgba(255, 255, 255, 0.856);
     font-family: 'Muli', sans-serif;
     margin: 0;
     display: flex;
@@ -27,4 +27,39 @@ body{
     justify-content: space-between;
     margin-bottom: 30px;
     position: relative;
+}
+
+.progress-container::before{
+    content:'';
+    background-color: #e0e0e0;
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    height:4px;
+    width:100%;
+    z-index: -1;
+}
+
+.progress{
+    background-color: rgb(51, 51, 143);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 10%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #e0e0e0;
 }
