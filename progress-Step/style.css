@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: violet;
+    background-color: rgba(116, 49, 116, 0.856);
     font-family: 'Muli', sans-serif;
     margin: 0;
     display: flex;
@@ -18,4 +18,13 @@ body{
 
 .container{
     text-align: center;
+}
+
+.progress-container{
+    display: flex;
+    max-width: 100%;
+    width: 350px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
 }
