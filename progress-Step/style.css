@@ -68,3 +68,13 @@ body{
 .circle.active{
     border-color: #3498db;
 }
+
+.btn{
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+}
