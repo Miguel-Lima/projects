@@ -14,7 +14,7 @@ next.addEventListener('click', () => {
 })
 
 prev.addEventListener('click', () => {
-    currentActive++;
+    currentActive--;
     if(currentActive < 1){
         currentActive = 1;
     }
@@ -22,5 +22,11 @@ prev.addEventListener('click', () => {
 })
 
 function update() {
-    
+    circles.forEach((circle, index) => {
+        if(index <= currentActive){
+            circles.classList.add('active')
+        }else{
+            circles.classList.remove('active')
+        }
+    })
 }
