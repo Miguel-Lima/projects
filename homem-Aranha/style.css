@@ -1,50 +1,112 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    font-family: 'Ubuntu';
+  }
   
-}
-
-header {
-    height: 200px;
-    background-color: #000000;
+.header-container {
+    align-items: center;
+    background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
-}
-
-.simboloaranha {
-    height: 200px;
-    padding: 5px;
-    
-}
-
-h1 {
-    font-size: 70px;
-    color:rgb(255, 255, 255) ;
-    border-radius: 2px;
-}
-
-.login {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-}
-
-.photos-multiverso-container {
-   
-}
-
-.photos-aranha {
     width: 100%;
+    height: 100px;
+  }
+  
+.header-img {
+    width: 80px;
+    border-radius: 20px;
+  }
+  
+.centro-container {
+    background: #948E99;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+h1 {
+    color: rgb(238, 238, 238);
+    font-size: 1.3rem;
+  }
+  
+h3 {
+    color: rgb(194, 194, 194);
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+  
+h3:hover {
+    color: #0fa36b;
+  }
+  
+.text-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100%;
+  }
+  
+p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+  }
+  
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background: url(http://pa1.narvii.com/6519/0a77e9a9b133790f7c407cb2bd425429a80fc4d7_00.gif);
-}
-
-.images-aranha {
-    margin-top: 20px;
-    width: 400px;
-}
+    justify-content: center;
+    margin: 10px auto 13px auto;
+    width: 50%;
+  }
+  
+.gallery-card {
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+    box-shadow: 2px 3px rgba(161, 161, 161, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    justify-content: center;
+    margin: 0 10px 15px 0;
+    width: 180px;
+  }
+  
+h4 {
+    color: #5C687C;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+.gallery-img {
+    width: 150px;
+    height: 250px;
+  }
+  
+hr {
+    margin-top: 10px;
+    width: 25%;
+  }
+  
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 145px;
+  }
+  
+.social-img {
+    width: 25px;
+    margin-left: 10px;
+  }
