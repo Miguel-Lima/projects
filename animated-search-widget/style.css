@@ -46,6 +46,10 @@ body{
     transform: translateX(200px);
 }
 
+.search.active .input{
+    width: 200px;
+}
+
 .search .input:focus, .search .button:focus{
     outline: 0;
 }
