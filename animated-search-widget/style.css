@@ -14,3 +14,18 @@ body{
     min-height: 100vh;
     overflow: hidden;
 }
+
+.search{
+    position: relative;
+    height: 50px;
+}
+
+.search .input{
+    background-color: #fff;
+    padding: 10px;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    transition: width 0.3s ease;
+}
