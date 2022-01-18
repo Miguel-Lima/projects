@@ -29,3 +29,15 @@ body{
     font-size: 18px;
     transition: width 0.3s ease;
 }
+
+.search .button{
+    background-color: #fff;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
