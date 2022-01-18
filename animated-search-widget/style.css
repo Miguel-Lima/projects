@@ -41,3 +41,11 @@ body{
     font-size: 20px;
     transition: transform 0.3s ease;
 }
+
+.search.active .button{
+    transform: translateX(200px);
+}
+
+.search .input:focus, .search .button:focus{
+    outline: 0;
+}
