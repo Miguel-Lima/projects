@@ -1,1 +1,3 @@
-function menuToggle()
+function menuToggle() {
+    
+}
